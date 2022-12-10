@@ -1,0 +1,23 @@
+{
+  "name": "esm-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/esm.ts && tsx src/cjs.cts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.12",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  }
+}
